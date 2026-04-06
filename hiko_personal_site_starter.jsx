@@ -43,7 +43,7 @@ export default function HikoPersonalSite() {
   };
 
   const links = [
-    { label: "X / Twitter", href: "https://x.com/HIKOkyoujurou" },
+    { label: "X/Twitter", href: "https://x.com/HIKOkyoujurou" },
     { label: "Steam", href: "https://store.steampowered.com/curator/45513966" },
     { label: "itch.io", href: "https://hikokyoujurou.itch.io/" },
     { label: "note", href: "https://note.com/hikokyoujurou" },
