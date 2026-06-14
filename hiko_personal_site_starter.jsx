@@ -317,22 +317,16 @@ export default function HikoPersonalSite() {
           About
         </a>
         <a
+          href="#links"
+          className="underline underline-offset-4 hover:text-stone-900"
+        >
+          Links
+        </a>
+        <a
           href={`mailto:${site.contactEmail}`}
           className="underline underline-offset-4 hover:text-stone-900"
         >
-          Contact
-        </a>
-        <a
-          href="https://x.com/HIKOkyoujurou"
-          className="underline underline-offset-4 hover:text-stone-900"
-        >
-          X / Twitter
-        </a>
-        <a
-          href="https://hikokyoujurou.itch.io/"
-          className="underline underline-offset-4 hover:text-stone-900"
-        >
-          itch.io
+          Contact: {site.contactEmail}
         </a>
       </nav>
 
@@ -385,7 +379,7 @@ export default function HikoPersonalSite() {
         </div>
       </section>
 
-      <section className="mb-20 border-t border-stone-300 pt-8">
+      <section id="links" className="mb-20 border-t border-stone-300 pt-8">
         <SectionHeading>Links</SectionHeading>
         <div className="grid gap-3 md:grid-cols-2">
           {links.map((link) => (
