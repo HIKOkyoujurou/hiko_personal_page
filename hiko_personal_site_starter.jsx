@@ -48,7 +48,6 @@ export default function HikoPersonalSite() {
     { label: "itch.io", href: "https://hikokyoujurou.itch.io/" },
     { label: "note", href: "https://note.com/hikokyoujurou" },
     { label: "YouTube", href: "https://www.youtube.com/@hikogame9554" },
-    { label: "BlueSky", href: "https://bsky.app/profile/hikogame.bsky.social" },
   ];
 
   const projects = [
